@@ -1,0 +1,16 @@
+    <p id="notice"><%= flash[:hoge] %></p>
+    <p><storong>Title:</storong>
+        <%= @book.title %>
+    </p>
+
+
+
+    <p><storong>Body:</storong>
+        <%= @book.body %>
+    </p>
+
+    <div>
+        <td><%= link_to 'Edit',edit_book_path(@book) %></td>
+        I
+        <td><%= link_to 'Back',books_path %></td>
+    </div>
